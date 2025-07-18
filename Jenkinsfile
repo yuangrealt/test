@@ -2,28 +2,46 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPO = 'https://github.com/你的用户名/项目名.git'
+        VENV_DIR = ".venv"
     }
 
     stages {
         stage('Clone') {
             steps {
-                git credentialsId: 'github-token', url: "${env.GIT_REPO}", branch: 'main'
+                // 自动拉取 GitHub 代码（已由 Jenkins SCM 拉取就可省略）
+                echo "代码已通过 SCM 拉取完毕"
             }
         }
 
-        stage('Build') {
+        stage('Setup Python Environment') {
             steps {
-                echo "构建项目中..."
-                // sh 'mvn clean package' 或其他构建命令
+                echo "设置虚拟环境并安装依赖"
+                sh '''
+                    python3 -m venv ${VENV_DIR}
+                    source ${VENV_DIR}/bin/activate
+                    pip install --upgrade pip
+                    pip install -r requirements.txt
+                '''
             }
         }
 
-        stage('Test') {
+        stage('Run Script') {
             steps {
-                echo "执行测试..."
-                // sh 'mvn test'
+                echo "运行主脚本 convert_all.py"
+                sh '''
+                    source ${VENV_DIR}/bin/activate
+                    python convert_all.py
+                '''
             }
+        }
+    }
+
+    post {
+        success {
+            echo "✅ 构建成功"
+        }
+        failure {
+            echo "❌ 构建失败"
         }
     }
 }
