@@ -1,21 +1,29 @@
 pipeline {
     agent any
 
+    environment {
+        VENV = "venv"
+        PATH = "${env.WORKSPACE}/${VENV}/bin:${env.PATH}"
+    }
+
     stages {
-        stage('安装依赖') {
+        stage('准备环境') {
             steps {
+                echo "创建 Python 虚拟环境并安装依赖"
                 sh '''
-                    python3 -m venv venv
-                    source venv/bin/activate
+                    python3 -m venv ${VENV}
+                    source ${VENV}/bin/activate
+                    pip install --upgrade pip
                     pip install -r requirements.txt
                 '''
             }
         }
 
-        stage('运行 Python 脚本') {
+        stage('运行转换脚本') {
             steps {
+                echo "执行 convert_all.py 转换 XML 到 CSV"
                 sh '''
-                    source venv/bin/activate
+                    source ${VENV}/bin/activate
                     python convert_all.py testdemo.testproject-deep.xml
                 '''
             }
@@ -24,11 +32,11 @@ pipeline {
 
     post {
         success {
-            echo "✅ 转换完成"
+            echo "✅ 转换成功，归档 CSV 文件"
             archiveArtifacts artifacts: '*.csv', fingerprint: true
         }
         failure {
-            echo "❌ 失败了，请检查日志"
+            echo "❌ 转换失败，请查看控制台日志"
         }
     }
 }
