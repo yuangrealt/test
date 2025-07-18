@@ -1,0 +1,576 @@
+﻿所属模块,用例名称,前置条件,步骤,预期,关键词,优先级,用例类型,适用阶段,类型可选值列表,阶段可选值列表
+/(未命名模块/硬件测试),TC_001,,"1. Step1
+2. Step2
+3. Step3","1. Step1
+2. Step2
+3. Step3",,2,功能测试,功能测试阶段,"单元测试
+接口测试
+功能测试
+安装部署
+配置相关
+性能测试
+安全相关
+其他","单元测试阶段
+功能测试阶段
+集成测试阶段
+系统测试阶段
+冒烟测试阶段
+版本验证阶段"
+/(未命名模块/硬件测试),TC_002,,,,,2,功能测试,功能测试阶段,,
+/(未命名模块/一致性测试),TC_003,,,,,2,功能测试,功能测试阶段,,
+/(未命名模块/一致性测试),TC_004,,,,,2,功能测试,功能测试阶段,,
+/(未命名模块/单元测试),TC_005,,,,,2,功能测试,功能测试阶段,,
+/(未命名模块/单元测试),TC_006,,,,,2,功能测试,功能测试阶段,,
+/(未命名模块/功能测试),TC_007,,,,,2,功能测试,功能测试阶段,,
+/(未命名模块/功能测试),TC_008,,,,,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_001,获取为PduR配置的Id序号,1. 调用PduR_GetConfigurationId,1. 返回配置的ConfigId,,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_002,路由路径配置为组播操作且CTPduRSrcModuleName == &lt;Up&gt;,"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)","1. 
+2. 
+3. PduR_&lt;User:Up&gt;Transmit返回E_OK；
+
+&lt;LoTp&gt;_Transmit未被调用；
+
+&lt;Lo&gt;_Transmit被调用；",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_003,路由路径配置为单播操作且CTPduRSrcModuleName == &lt;Up&gt;,"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)","1. 
+2. 
+3. PduR_&lt;User:Up&gt;Transmit返回E_OK
+
+
+
+若CTPduRDestModuleName == &lt;LoTp&gt;验证&lt;LoTp&gt;_Transmit被调用且返回值为E_OK
+
+
+
+若CTPduRDestModuleName == &lt;Lo&gt;验证&lt;Lo&gt;_Transmit被调用且返回值为E_OK",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_004,路由路径配置为单播操作&amp;&amp;PduRTriggertransmit == true&amp;&amp;PduRDestPduDataProvision == PDUR_TRIGGERTRANSMIT,"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;Lo&gt;TriggerTransmit(PduRDestPduHandleId, info)","1. 
+2. 
+3. PduR_&lt;Lo&gt;TriggerTransmit返回E_OK
+
+
+
+&lt;Up&gt;_TriggerTransmit被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_005,路由路径配置为组播操作&amp;&amp;（CTPduRSrcModuleName == &lt;Up&gt;）&amp;&amp;（CTPduRDestModuleName == &lt;Lo&gt;）&amp;&amp;（PduRTransmissionConfirmation == true for at least one interface）,"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)
+4. 调用PduR_&lt;Lo&gt;TxConfirmation(PduRDestPduHandleId)","1. 
+2. 
+3. PduR_&lt;User:Up&gt;Transmit返回E_OK
+
+
+
+&lt;Lo&gt;_Transmit被调用
+4. &lt;Up&gt;TxConfirmation被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_006,路由路径配置为组播操作&amp;&amp;（CTPduRSrcModuleName == &lt;Up&gt;）&amp;&amp;（CTPduRDestModuleName == &lt;LoTp&gt;）&amp;&amp;（PduRTransmissionConfirmation == true for at least one interface）,"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)
+4. 调用PduR_&lt;LoTp&gt;TxConfirmation(PduRDestPduHandleId)","1. 
+2. 
+3. PduR_&lt;User:Up&gt;Transmit返回E_OK
+
+
+
+&lt;LoTp&gt;_Transmit被调用
+4. &lt;Up&gt;_TpTxConfirmation被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_007,((CTPduRSrcModuleName == &lt;Up&gt;) &amp;&amp; (CTPduRDestModuleName == &lt;LoTp&gt;)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)
+4. 调用PduR_&lt;LoTp&gt;CopyTxData(PduRDestPduHandleId, info, NULL_PTR, availableDataPtr)","1. 
+2. 
+3. PduR_&lt;User:Up&gt;Transmit返回E_OK
+
+
+
+&lt;LoTp&gt;_Transmit被调用
+4. PduR_&lt;LoTp&gt;CopyTxData返回BUFREQ_OK
+
+
+
+&lt;Up&gt;_CopyTxData被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_008,((CTPduRSrcModuleName == &lt;Up&gt;) &amp;&amp; (CTPduRDestModuleName == &lt;LoTp&gt;)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;User:LoTp&gt;TxConfirmation(PduRDestPduHandleId,E_NOT_OK)
+4. 调用PduR_&lt;LoTp&gt;CopyTxData(PduRDestPduHandleId,info,retry,availableDataPtr)","1. 
+2. 
+3. &lt;Up&gt;_TpTxConfirmation(CTPduRSrcPduId, E_NOT_OK)被调用
+4. PduR_&lt;LoTp&gt;CopyTxData返回BUFREQ_E_NOT_OK",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_009,路由路径配置为组播操作且CTPduRSrcModuleName != &lt;Up&gt;&amp;&amp;CTPduRSrcModuleName != &lt;LoTp&gt;,"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)","1. 
+2. 
+3. &lt;Up&gt;_RxIndication(CTPduRDestPduId, PduInfoPtr)被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_010,路由路径配置为非网关单播操作且 (CTPduRSrcModuleName == &lt;LoTp&gt;),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用 PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)","1. 
+2. 
+3. PduR_&lt;LoTp&gt;StartOfReception返回BUFREQ_OK
+
+
+
+&lt;Up&gt;_StartOfReception被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_011,路由路径配置为非网关单播操作且 (CTPduRSrcModuleName == &lt;LoTp&gt;),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr)","1. 
+2. 
+3. PduR_&lt;LoTp&gt;StartOfReception返回BUFREQ_OK
+
+
+
+&lt;Up&gt;_StartOfReception被调用
+4. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK
+
+
+
+&lt;Up&gt;_CopyRxData被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_012,路由路径配置为非网关单播操作且 (CTPduRSrcModuleName == &lt;LoTp&gt;),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用 PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId, E_NOT_OK)","1. 
+2. 
+3. &lt;Up&gt;_RxIndication (CTPduRDestPduId, E_NOT_OK)被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_013,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp; (PduRDestTxBufferRef is not configured)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)","1. 
+2. 
+3. &lt;Lo&gt;_Transmit被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_014,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp; ((PduRTriggertransmit == true) &amp;&amp; (PduRDestPduDataProvision == PDUR_TRIGGERTRANSMIT) for at least one destination)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)PduInfoPtr.SduLength大于PduR Tx缓冲区的长度
+4. 调用PduR_&lt;Lo&gt;TriggerTransmit(PduRDestPduHandleId, PduInfoPtr)","1. 
+2. 
+3. &lt;Lo&gt;_Transmit被调用
+4. 在PduInfoPtr.SduDataPtr中复制了等于PduR Tx缓冲区长度的长度数据",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_015,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp; ((PduRTriggertransmit == true) &amp;&amp; (PduRDestPduDataProvision == PDUR_TRIGGERTRANSMIT) for at least one destination)&amp;&amp; (PduRTxBufferDepth == 1)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)PduInfoPtr.SduLength大于PduR Tx缓冲区的长度
+4. 调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)PduInfoPtr.SduLength大于PduR Tx缓冲区的长度
+5. 调用PduR_&lt;Lo&gt;TriggerTransmit(PduRDestPduHandleId, PduInfoPtr)
+6. 调用PduR_&lt;DstLo&gt;TxConfirmation(PduRDestPduHandleId)","1. 
+2. 
+3. &lt;Lo&gt;_Transmit被调用
+4. &lt;Lo&gt;_Transmit被调用
+5. 数据复制的info.SduDataPtr等于在第04步中PduR的数据输入
+6. &lt;Lo&gt;_Transmit未被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_016,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp;  (PduRDestPduDataProvision == PDUR_DIRECT) for at least one destination)&amp;&amp; (PduRTxBufferDepth == 1))&amp;&amp;(PduR_TxBuffer[bufId].PduRTxBufferRef[0].used==FALSE),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)","1. 
+2. 
+3. &lt;Lo&gt;_Transmit被调用
+
+
+
+PduR_EnQueueBuffer未被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_017,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp; ((PduRTriggertransmit==true) &amp;&amp; (PduRDestPduDataProvision == PDUR_TRIGGERTRANSMIT) for at least one destination)&amp;&amp; (PduRTxBufferDepth == 1))&amp;&amp;（PduR_TxBuffer = NULL_PTR）,"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)
+4. 调用PduR_&lt;Lo&gt;TriggerTransmit(PduRDestPduHandleId, PduInfoPtr)","1. 
+2. 
+3. &lt;Lo&gt;_Transmit被调用
+4. PduR_&lt;Lo&gt;TriggerTransmit返回E_NOT_OK",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_018,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp; ((PduRTriggertransmit==true) &amp;&amp; (PduRDestPduDataProvision == PDUR_TRIGGERTRANSMIT) for at least one destination)&amp;&amp; (PduRTxBufferDepth &gt; 1)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)PduRTxBufferDepth次且每次PduInfoPtr不同
+4. 调用PduR_&lt;Lo&gt;TriggerTransmit(PduRDestPduHandleId, PduInfoPtr)
+5. 调用PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)
+6. 调用PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)","1. 
+2. 
+3. PduR_TxBuffer[bufId].PduRTxBufferRef[PduRTxBufferDepth-1].used == TRUE
+4. PduR_&lt;Lo&gt;TriggerTransmit返回E_OK
+
+
+
+&lt;Lo&gt;_Transmit被调用，且最先进入缓冲的数据被复制
+5. PduR_TxBuffer[bufId].PduRTxBufferRef[PduRTxBufferDepth-1].used == TRUE;且数据为PduInfoPtr里的数据
+6. PduRTxBufferRef[0].used == TRUE;PduRTxBufferRef[1].used == FALSE
+
+
+
+Det_ReportError被调用且报告PDUR_E_PDU_INSTANCES_LOST",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_019,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, 
+
+info, bufferSizePtr)info.SduLength==TpBufferLength
+5. 调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)","1. 
+2. 
+3. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK且buffersize等于PduRTpBufferLength
+
+
+
+若PduRTpThreshold == 0验证&lt;LoTp&gt;_Transmit被调用
+
+若PduRTpThreshold != 0验证&lt;LoTp&gt;_Transmit未被调用
+4. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK且bufferSizePtr为0
+
+
+
+&lt;LoTp&gt;_Transmit未被调用
+5. &lt;LoTp&gt;_Transmit被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_020,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)&amp;&amp;至少一个PduRDestPdu等于本地上层模块,"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr)
+5. 调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)","1. 
+2. 
+3. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK
+
+
+
+对所有上层目的地重复验证&lt;Up&gt;_StartOfReception被调用
+4. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK
+
+
+
+对所有上层目的地重复验证&lt;Up&gt;_CopyRxData被调用
+5. 对所有上层的目的模块重复验证&lt;Up&gt;_RxIndication被调用
+
+
+
+对所有下层TP模块重复验证&lt;LoTp&gt;_Transmit被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_021,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr)
+5. 调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)
+6. 调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId, info,retry,availableDataPtr)，retry.TpDataState==TP_CONFPENDING","1. 
+2. 
+3. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK
+4. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK
+5. &lt;LoTp&gt;_Transmit被调用
+6. PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_OK",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_022,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr)
+5. 调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)
+6. 调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId, 
+
+info,retry,availableDataPtr)，retry.TpDataState==TP_DATACONF且Info.Sdulength&gt;PduRTpBufferLength","1. 
+2. 
+3. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK
+4. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK
+5. &lt;LoTp&gt;_Transmit被调用
+6. PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_E_BUSY且不复制数据",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_023,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)&amp;&amp; (PduRTpThreshold&lt;PduRTpBuffer长度),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr)info.SduLength &gt; PduRTpThreshold
+5. 调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId, info,retry,availableDataPtr)，retry.TpDataState==TP_DATACONF且retry.TxTpDataCnt == 0","1. 
+2. 
+3. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK&amp;&amp;bufferSizePtr==PdurTpBufferlength
+4. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK
+
+
+
+&lt;LoTp&gt;_Transmit被调用
+5. PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_OK且复制的数据等于第04步复制数据",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_024,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr)info.SduLength == PduRTpThreshold
+5. 调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,E_OK)
+6. 调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId, info,retry,availableDataPtr)，retry.TpDataState==TP_DATARETRY且retry.TxTpDataCnt == PduRTpThreshold","1. 
+2. 
+3. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK&amp;&amp;bufferSizePtr==PdurTpBufferlength
+4. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK
+5. 验证&lt;LoTp&gt;_Transmit被调用
+6. PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_E_NOT_OK",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_025,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)&amp;&amp;(PduRTpThreshold&lt;PduRTpBuffer长度),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr)info.SduLength &gt; CTPduRIpduLength
+5. 调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,E_NOT_OK)","1. 
+2. 
+3. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK&amp;&amp;bufferSizePtr==PdurTpBufferlength
+4. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_E_NOT_OK
+5. &lt;LoTp&gt;_Transmit未被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_026,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr) info.SduLength == PduRTpBufferLength
+5. 调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)
+6. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr) info.SduLength == PduRTpBufferLength
+7. 调用PduR_&lt;User:LoTp&gt;TxConfirmation(PduRDestPduHandleId, E_NOT_OK)
+8. 调用PduR_&lt;User:LoTp&gt;StartOfReception(PduRSourcePduHandleId, 
+
+PduRTpBufferLength, buffer)
+9. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, 
+
+info, bufferSizePtr) info.SduLength == PduRTpBufferLength","1. 
+2. 
+3. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK
+4. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK
+5. &lt;LoTp&gt;_Transmit被调用
+6. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_E_NOT_OK
+7. PDU路由器释放了这个目的地的I-PDU缓冲区
+8. 验证PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK
+9. 验证PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_027,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr) info.SduLength == PduRTpBufferLength
+5. 调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_NOT_OK)","1. 
+2. 
+3. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK
+4. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK
+5. &lt;LoTp&gt;_Transmit未被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_028,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr) info.SduLength == PduRTpBufferLength
+5. 调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)
+6. 调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+7. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr) info.SduLength == PduRTpBufferLength","1. 
+2. 
+3. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK
+4. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK
+5. &lt;LoTp&gt;_Transmit被调用
+6. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_E_OVFL
+7. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_E_NOT_OK",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_029,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr)
+5. 调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)
+6. 调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId, info,retry,availableDataPtr)，retry.TpDataState==TP_CONFPENDING且Info.SduLength = PduRTpBufferLength - 1
+7. 调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId, info,retry,availableDataPtr)，retry.TpDataState==TP_CONF且Info.SduLength=1","1. 
+2. 
+3. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK
+4. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK
+5. &lt;LoTp&gt;_Transmit被调用
+6. PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_OK&amp;&amp;(复制的数据等于第04步复制数据)
+7. PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_OK&amp;&amp;(复制的数据等于第04步复制数据剩余部分)",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_030,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, info, bufferSizePtr)且PduInfoType.SduLength = 0
+5. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId, 
+
+info, bufferSizePtr)且PduInfoType.SduLength!=0
+6. 调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)
+7. 调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId, info,retry,availableDataPtr)，retry.TpDataState==TP_DATACONF且Info.SduLength =0&amp;&amp;retry.TxTpDataCnt == 0","1. 
+2. 
+3. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK
+4. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK和当前可用数据的大小
+5. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK
+6. &lt;LoTp&gt;_Transmit被调用
+7. PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_OK&amp;&amp;(availableDataPtr被更新为PdurTpBufferlength)",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_031,路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;)&amp;&amp; (PduRTxBufferDepth&gt;1)&amp;&amp;((PduRTransmissionConfirmation == true) &amp;&amp; (PduRDestPduDataProvision == PDUR_DIRECT) for at least one destination)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr1)
+4. 调用PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr2)
+5. 调用PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr3)
+6. 调用PduR_&lt;DstLo&gt;TxConfirmation(PduRDestPduHandleId)","1. 
+2. 
+3. &lt;Lo&gt;_Transmit被调用且复制数据等于入参数据
+4. 
+5. 
+6. PduRTxBufferRef[0].used == TRUE;PduRTxBufferRef[1].used == FALSE",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_032,((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;/&lt;Lo&gt;)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;Up&gt;CancelTransmit(PduRSourcePduHandleId)
+4. 调用PduR_&lt;Up&gt;CancelTransmit(PduRSourcePduHandleId)","1. 
+2. 
+3. PduR_&lt;User:Up&gt;CancelTransmit返回E_OK
+
+
+
+&lt;LoTp&gt;/&lt;Lo&gt;_CancelTransmit被调用返回值为E_OK
+4. PduR_&lt;User:Up&gt;CancelTransmit返回E_OK
+
+
+
+&lt;LoTp&gt;/&lt;Lo&gt;_CancelTransmit被调用返回值为E_OK",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_033,((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;/&lt;Lo&gt;)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_DisableRouting(PduRRoutingPathGroupId)
+4. 调用PduR_&lt;Up&gt;CancelTransmit(PduRSourcePduHandleId)
+5. 调用PduR_EnableRouting(PduRRoutingPathGroupId)
+6. 调用PduR_&lt;Up&gt;CancelTransmit(PduRSourcePduHandleId)","1. 
+2. 
+3. 
+4. PduR_&lt;User:Up&gt;CancelTransmit返回E_NOT_OK
+
+
+
+&lt;LoTp&gt;_CancelTransmit未被调用
+5. 
+6. PduR_&lt;User:Up&gt;CancelTransmit返回E_OK
+
+
+
+&lt;LoTp&gt;_CancelTransmit被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_034,((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;/&lt;Lo&gt;)),"1. 调用PduR_Init
+2. 设置&lt;LoTp&gt;/&lt;Lo&gt;根的行为,以返回E_NOT_OK，为API &lt;LoTp&gt;/&lt;Lo&gt;_CancelTransmit
+3. 对每一个符合前提的路由路径执行以下操作
+4. 调用PduR_&lt;Up&gt;CancelTransmit(PduRSourcePduHandleId)","1. 
+2. 
+3. 
+4. PduR_&lt;User:Up&gt;CancelTransmit返回E_NOT_OK
+
+
+
+&lt;LoTp&gt;/&lt;Lo&gt;_CancelTransmit被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_035,((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;/&lt;Lo&gt;)),"1. 调用PduR_Init
+2. 设置&lt;LoTp&gt;/&lt;Lo&gt;存根行为返回E_NOT_OK，为最后一个发送的 &lt;LoTp&gt;/&lt;Lo&gt;_CancelTransmit
+3. 对每一个符合前提的路由路径执行以下操作
+4. 调用PduR_&lt;Up&gt;CancelTransmit(PduRSourcePduHandleId)","1. 
+2. 
+3. 
+4. PduR_&lt;User:Up&gt;CancelTransmit返回E_NOT_OK
+
+
+
+&lt;LoTp&gt;/&lt;Lo&gt;_CancelTransmit被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_036,((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_DisableRouting(PduRRoutingPathGroupId)
+4. 调用PduR_&lt;Up&gt;CancelReceive(PduRSourcePduHandleId)
+5. 调用PduR_EnableRouting(PduRRoutingPathGroupId)
+6. 调用PduR_&lt;Up&gt;CancelReceive(PduRSourcePduHandleId)","1. 
+2. 
+3. 
+4. PduR_&lt;User:Up&gt;CancelReceive返回E_NOT_OK
+
+
+
+&lt;LoTp&gt;_CancelReceive未被调用
+5. 
+6. PduR_&lt;User:Up&gt;CancelReceive返回E_OK
+
+
+
+&lt;LoTp&gt;_CancelReceive被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_037,((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;Up&gt;CancelReceive(PduRSourcePduHandleId)
+4. 调用PduR_&lt;Up&gt;CancelReceive(PduRSourcePduHandleId)","1. 
+2. 
+3. PduR_&lt;User:Up&gt;CancelReceive返回E_OK
+
+
+
+&lt;LoTp&gt;_CancelReceive被调用且返回值为E_OK
+4. PduR_&lt;User:Up&gt;CancelReceive返回E_OK
+
+
+
+&lt;LoTp&gt;_CancelReceive被调用且返回值为E_OK",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_038,((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 设置&lt;LoTp&gt;_CancelReceive存根行为返回E_NOT_OK
+4. 调用PduR_&lt;Up&gt;CancelReceive(PduRSourcePduHandleId)","1. 
+2. 
+3. 
+4. PduR_&lt;User:Up&gt;CancelReceive返回E_NOT_OK
+
+
+
+&lt;LoTp&gt;_CancelReceive被调用且返回值为E_NOT_OK",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_039,((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;Lo&gt;)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)
+4. 调用PduR_DisableRouting(PduRRoutingPathGroupId)
+5. 调用PduR_&lt;Lo&gt;TxConfirmation(PduRDestPduHandleId)","1. 
+2. 
+3. PduR_&lt;User:Up&gt;Transmit返回E_OK
+
+
+
+&lt;Lo&gt;_Transmit被调用
+4. 
+5. &lt;Up&gt;_TxConfirmation未被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_040,路由配置为非网关操作且((CTPduRSrcModuleName==&lt;LoTp&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;Up&gt;)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)
+4. 调用PduR_DisableRouting(PduRRoutingPathGroupId)
+5. 调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,info,bufferSizePtr)","1. 
+2. 
+3. PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_ OK
+4. 
+5. PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_E_NOT_OK
+
+
+
+&lt;Up&gt;_CopyRxData未被调用",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_041,((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;)),"1. 调用PduR_Init
+2. 对每一个符合前提的路由路径执行以下操作
+3. 调用PduR_&lt;Up&gt;ChangeParameter(PduRSourcePduHandleId,parameter,value)","1. 
+2. 
+3. PduR_&lt;User:Up&gt;ChangeParameter返回E_OK
+
+
+
+&lt;LoTp&gt;_ChangeParameter被调用且返回值为E_OK",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_042,验证版本信息,1. 调用PduR_GetVersionInfo,"1. versionInfo-&gt;moduleID = PDUR_MODULE_ID;
+
+versionInfo-&gt;sw_major_version = PDUR_SW_MAJOR_VERSION;
+
+versionInfo-&gt;sw_minor_version = PDUR_SW_MINOR_VERSION;
+
+versionInfo-&gt;sw_patch_version = PDUR_SW_PATCH_VERSION;
+
+versionInfo-&gt;vendorID = PDUR_VENDOR_ID;",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_043,验证路由路径配置为单播操作且CTPduRSrcModuleName == &lt;Up&gt;,"1. 调用PduR_Init
+2. 对每一个配置的路由路径执行以下操作
+3. 设置&lt;Lo&gt;/&lt;LoTp&gt;_Transmit存根为E_NOT_OK
+4. 调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)","1. 
+2. 
+3. 
+4. PduR_&lt;User:Up&gt;Transmit返回E_NOT_OK
+
+
+
+若CTPduRDestModuleName == &lt;LoTp&gt;验证&lt;LoTp&gt;_Transmit被调用且返回值为E_NOT_OK；
+
+
+
+若CTPduRDestModuleName == &lt;Lo&gt;验证&lt;Lo&gt;_Transmit被调用且返回值为E_NOT_OK；",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_044,"路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;)&amp;&amp; (PduRTxBufferDepth&gt;1)&amp;&amp;
+
+((PduRTransmissionConfirmation == true) &amp;&amp; (PduRDestPduDataProvision == PDUR_DIRECT) for at least one destination))","1. 调用PduR_Init
+2. 对每一个配置的路由路径执行以下操作
+3. 调用PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)","1. 
+2. 
+3. &lt;Lo&gt;_Transmit被调用
+
+Det_ReportError被调用且报告PDUR_E_PDU_INSTANCES_LOST",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_045,"PDU路由器模块在PDU路由器模块上电后(即调用PduR_Init函数之前)应处于PDUR_UNINIT状态。PDU路由器模块在未初始化状态(PDUR_UNINIT)时,不应执行路由。","1. 对每一个配置的路由路径执行以下操作
+2. 调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)","1. 
+2. PduR_&lt;User:Up&gt;Transmit返回E_NOT_OK；
+
+Det_ReportError被调用且报告PDUR_E_INVALID_REQUEST",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_046,"如果启用了开发错误检测,PDU标识符不在指定范围内,并且PDU标识符被配置为由PDU路由器模块使用,则当启用了PduRDevErrorDetect时，PDU路由器模块应向DET模块报告错误PDUR_E_PDU_ID_INVALID。","1. 调用PduR_Init
+2. 对每一个配置的路由路径执行以下操作
+3. 调用PduR_&lt;User:Up&gt;Transmit(InvalidPduHandleId, info)","1. 
+2. 
+3. PduR_&lt;User:Up&gt;Transmit返回E_NOT_OK；
+
+Det_ReportError被调用且报告PDUR_E_PDU_ID_INVALID",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_047,"如果调用PduR_EnableRouting时路由路径组id不存在,则PDU路由器模块应返回无动作。如果路由路径组id不存在且启用了PduRDevErro rDetect,则PDU路由器模块应报告PDUR_ E_ROUTING_PATH_GROUP_ID_INVALID。","1. 调用PduR_Init
+2. 对每一个配置的路由路径执行以下操作
+3. 调用PduR_EnableRouting(InvalidPduHandleId)","1. 
+2. 
+3. 验证Det_ReportError被调用且报告PDUR_E_ROUTING_PATH_GROUP_ID_INVALID",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_048,"如果调用PduR_DisableRouting时路由路径组id不存在,则PDU路由器模块应返回无动作。如果路由路径组id不存在且启用了PduRDevErr orDetect,则PDU路由器模块应报告PDUR_ E_ROUTING_PATH_GROUP_ID_INVALID。","1. 调用PduR_Init
+2. 对每一个配置的路由路径执行以下操作
+3. 调用PduR_DisableRouting(InvalidPduHandleId,TRUE)","1. 
+2. 
+3. 验证Det_ReportError被调用且报告PDUR_E_ROUTING_PATH_GROUP_ID_INVALID",,2,功能测试,功能测试阶段,,
+/(未命名模块/PduR),CTSPTest_PduR_049,"路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp; ((PduRTriggertransmit==true) &amp;&amp; (PduRDestPduDataProvision == 
+
+PDUR_TRIGGERTRANSMIT) for at least one destination)&amp;&amp; 
+
+(PduRTxBufferDepth &gt; 1))","1. 调用PduR_Init
+2. 对每一个配置的路由路径执行以下操作
+3. 调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)PduRTxBufferDepth次且每次PduInfoPtr不同
+4. 调用PduR_DisableRouting(Id,TRUE)","1. 
+2. 
+3. PduR_TxBuffer[bufId].PduRTxBufferRef[PduRTxBufferDepth-1].used == TRUE;
+4. Det_ReportError被调用且报告PDUR_E_PDU_INSTANCES_LOST",,2,功能测试,功能测试阶段,,

@@ -1,0 +1,3079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="" name="" >
+<node_order><![CDATA[]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="63039" name="硬件测试" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[模块版本]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+<testcase internalid="63043" name="TC_001">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Step1</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Step1</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Step2</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Step2</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Step3</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Step3</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="63045" name="TC_002">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+</testsuite><testsuite id="63040" name="一致性测试" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[]]></details> 
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[模块版本]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+<testcase internalid="63047" name="TC_003">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[3]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+
+<testcase internalid="63049" name="TC_004">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[4]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+</testsuite><testsuite id="63041" name="单元测试" >
+<node_order><![CDATA[3]]></node_order>
+<details><![CDATA[]]></details> 
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[模块版本]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+<testcase internalid="63051" name="TC_005">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[5]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+
+<testcase internalid="63053" name="TC_006">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[6]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+</testsuite><testsuite id="63042" name="功能测试" >
+<node_order><![CDATA[4]]></node_order>
+<details><![CDATA[]]></details> 
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[模块版本]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+<testcase internalid="63055" name="TC_007">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[7]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+
+<testcase internalid="63058" name="TC_008">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[8]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<platforms/>
+
+</testcase>
+</testsuite><testsuite id="90051" name="PduR" >
+<node_order><![CDATA[29]]></node_order>
+<details><![CDATA[]]></details> 
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[模块版本]]></name>
+			<value><![CDATA[PduR-1.1-rc.2]]></value>
+			</custom_field>
+		</custom_fields>
+
+<testcase internalid="90052" name="CTSPTest_PduR_001">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[1812]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>获取为PduR配置的Id序号</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_GetConfigurationId</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>返回配置的ConfigId</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90055" name="CTSPTest_PduR_002">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[1813]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.如果提供的I-PDU ID代表一组PDUs(多播传输请求),至少有一个转发的请求成功返回,函数PduR_&lt;Up&gt;Transmit应返回E_OK。<br />
+2.当源上层模块调用 PduR_&lt;Up&gt;Transmit，PDU路由器将调用&lt;Lo&gt;_Transmit/&lt;LoTp&gt;_Transmit为每个目的地通信接口模块<br />
+3.如果传输请求中存在多个下层目标模块(1:n, n&gt;1),则所有这些模块必须是通信接口模块或传输协议模块。不是他们的混合体。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为组播操作且CTPduRSrcModuleName == &lt;Up&gt;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;Transmit返回E_OK；<br />
+&lt;LoTp&gt;_Transmit未被调用；<br />
+&lt;Lo&gt;_Transmit被调用；</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90060" name="CTSPTest_PduR_003">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[1814]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.如果单播(1:1)，则&lt;Lo&gt;_Transmit/&lt;LoTp&gt;_Transmit调用的返回值应转发到源上层模块。<br />
+2.在单播情况下调用&lt;Lo&gt;_Transmit/&lt;LoTp&gt;_Transmit之后，PDU Router模块应返回与源上层模块调用的PduR_&lt;Up&gt;Transmit相同的返回值。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为单播操作且CTPduRSrcModuleName == &lt;Up&gt;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;Transmit返回E_OK</p>
+
+<p>若CTPduRDestModuleName == &lt;LoTp&gt;验证&lt;LoTp&gt;_Transmit被调用且返回值为E_OK</p>
+
+<p>若CTPduRDestModuleName == &lt;Lo&gt;验证&lt;Lo&gt;_Transmit被调用且返回值为E_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90065" name="CTSPTest_PduR_004">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[1815]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.PDU路由器模块通过调用&lt;Up&gt;_TriggerTransmit将通信接口模块发出的PduR_&lt;Lo&gt;TriggerTransmit请求转发给上层模块<br />
+2.PDU路由器模块将&lt;Up&gt;_TriggerTransmit返回值复制给下层模块。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为单播操作&amp;&amp;PduRTriggertransmit == true&amp;&amp;PduRDestPduDataProvision == PDUR_TRIGGERTRANSMIT</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Lo&gt;TriggerTransmit(PduRDestPduHandleId, info)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;Lo&gt;TriggerTransmit返回E_OK</p>
+
+<p>&lt;Up&gt;_TriggerTransmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90070" name="CTSPTest_PduR_005">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[1816]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.在多播的情况下(1:n,n &gt; 1),通信接口传输,PDU路由器一旦接收到支持传输确认的通信接口模块的第一个传输确认,PDU路由器就会调用上层模块的传输确认API。<br />
+2.当通信接口模块调用PduR_&lt;Lo&gt;TxConfirmation 时PDU路由器将在上层模块调用&lt;Up&gt;_TxConfirmation</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为组播操作&amp;&amp;（CTPduRSrcModuleName == &lt;Up&gt;）&amp;&amp;（CTPduRDestModuleName&nbsp;== &lt;Lo&gt;）&amp;&amp;（PduRTransmissionConfirmation == true for at least&nbsp;one interface）</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;Transmit返回E_OK</p>
+
+<p>&lt;Lo&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Lo&gt;TxConfirmation(PduRDestPduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Up&gt;TxConfirmation被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90076" name="CTSPTest_PduR_006">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[1817]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.在单播的情况下，PDU Router模块通过&lt;Up&gt;_TpTxConfirmation.将确认报文PduR_&lt;LoTp&gt;TxConfirmation从下层传输协议模块转发给上层模块。<br />
+2.在所有运输协议收到他们的数据后PDU路由器模块可以将数据确认到上层模块</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为组播操作&amp;&amp;（CTPduRSrcModuleName == &lt;Up&gt;）&amp;&amp;（CTPduRDestModuleName&nbsp;== &lt;LoTp&gt;）&amp;&amp;（PduRTransmissionConfirmation == true for at least&nbsp;one interface）</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;Transmit返回E_OK</p>
+
+<p>&lt;LoTp&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;TxConfirmation(PduRDestPduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Up&gt;_TpTxConfirmation被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90082" name="CTSPTest_PduR_007">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[1818]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.当目的地传输协议模块调用PduR_&lt;LoTp&gt;CopyTxData时，PDU Router模块将调用源上层模块的&lt;Up&gt; _CopyTxData。<br />
+2.从&lt; Up &gt; _CopyTxData的返回值被转发到调用目的下层传输协议模块</p>
+]]></summary>
+	<preconditions><![CDATA[<p>((CTPduRSrcModuleName == &lt;Up&gt;) &amp;&amp; (CTPduRDestModuleName == &lt;LoTp&gt;))&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;Transmit返回E_OK</p>
+
+<p>&lt;LoTp&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;CopyTxData(PduRDestPduHandleId,&nbsp;info, NULL_PTR, availableDataPtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;LoTp&gt;CopyTxData返回BUFREQ_OK</p>
+
+<p>&lt;Up&gt;_CopyTxData被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90088" name="CTSPTest_PduR_008">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[1819]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证在调用PduR_&lt;LoTp&gt;TxConfirmation时 result==E_NOT_OK,调用 &lt;Up&gt;_TpTxConfirmation时result==E_NOT_OK,然后调用PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_E_NOT_OK</p>
+]]></summary>
+	<preconditions><![CDATA[<p>((CTPduRSrcModuleName == &lt;Up&gt;) &amp;&amp; (CTPduRDestModuleName == &lt;LoTp&gt;))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;TxConfirmation(PduRDestPduHandleId,E_NOT_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Up&gt;_TpTxConfirmation(CTPduRSrcPduId, E_NOT_OK)被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;CopyTxData(PduRDestPduHandleId,info,retry,availableDataPtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;LoTp&gt;CopyTxData返回BUFREQ_E_NOT_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90094" name="CTSPTest_PduR_009">
+	<node_order><![CDATA[1008]]></node_order>
+	<externalid><![CDATA[1820]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>当PduR_&lt;Lo&gt;RxIndication被调用时，PDU路由器模块将为每个目的上层模块调用&lt;Up&gt;_RxIndication。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为组播操作且CTPduRSrcModuleName != &lt;Up&gt;&amp;&amp;CTPduRSrcModuleName != &lt;LoTp&gt;&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Up&gt;_RxIndication(CTPduRDestPduId, PduInfoPtr)被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90099" name="CTSPTest_PduR_010">
+	<node_order><![CDATA[1009]]></node_order>
+	<externalid><![CDATA[1821]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.当源传输协议模块使用PduR_&lt;LoTp&gt;StartOfReception指示开始接收只有上层目的地的PDU的时。PDU路由器模块应通过调用&lt;Up&gt;_StartOfReception将请求转发到目标上层模块<br />
+2.PDU路由器将&lt;Up&gt;_StartOfReception的返回值转发给源传输协议</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为非网关单播操作且 (CTPduRSrcModuleName == &lt;LoTp&gt;)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用 PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;LoTp&gt;StartOfReception返回BUFREQ_OK</p>
+
+<p>&lt;Up&gt;_StartOfReception被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90104" name="CTSPTest_PduR_011">
+	<node_order><![CDATA[1010]]></node_order>
+	<externalid><![CDATA[1822]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>当源传输协议模块使用PduR_&lt;LoTp&gt;CopyRxData请求PDU路由器模块复制接收到的数据时， PDU路由器模块通过调用&lt;Up&gt;_CopyRxData将请求转发到目标上层模块。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为非网关单播操作且 (CTPduRSrcModuleName == &lt;LoTp&gt;)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;LoTp&gt;StartOfReception返回BUFREQ_OK</p>
+
+<p>&lt;Up&gt;_StartOfReception被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK</p>
+
+<p>&lt;Up&gt;_CopyRxData被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90110" name="CTSPTest_PduR_012">
+	<node_order><![CDATA[1011]]></node_order>
+	<externalid><![CDATA[1823]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.当源传输协议模块调用PduR_&lt;LoTp&gt;RxIndication表示接收完整的I-PDU时,PDU路由器模块将通过调用&lt;Up&gt;_TpRxIndication将该指示转发给目的上层模块。<br />
+2.如果源传输协议模块使用PduR_&lt;LoTp&gt;RxIndication报告错误，PDU Router模块不执行任何错误处理,而是将指示转发到上层模块。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为非网关单播操作且 (CTPduRSrcModuleName == &lt;LoTp&gt;)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用 PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,&nbsp;E_NOT_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Up&gt;_RxIndication (CTPduRDestPduId, E_NOT_OK)被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90115" name="CTSPTest_PduR_013">
+	<node_order><![CDATA[1012]]></node_order>
+	<externalid><![CDATA[1824]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.在调用PduR_&lt;Lo&gt;RxIndication时将调用目的&lt;Lo&gt;_Transmit<br />
+2.当PduR_&lt;SrcLo&gt;RxIndication被调用时，PDU路由器模块调用&lt;DstLo&gt;_Transmit,不缓存I-PDU，避免FIFO被使用<br />
+3.PDU路由器模块应支持I-PDUs在源通信接口模块与一个或多个目标通信接口模块之间的路由(1:n 网关)。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp; (PduRDestTxBufferRef is not configured))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Lo&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90120" name="CTSPTest_PduR_014">
+	<node_order><![CDATA[1013]]></node_order>
+	<externalid><![CDATA[1825]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>在带触发器的网关中，当PduR_&lt;SrcLo&gt;RxIndication被调用时：<br />
+1.PDU路由器模块调用&lt;Lo&gt;_Transmit,并将数据复制到PduR_&lt;DstLo&gt;TriggerTransmit调用的目标缓冲区中<br />
+2.复制到目标缓冲区的数据的长度等于收到的数据长度和在缓冲区中配置最大的PduLength中的最小值<br />
+3.当I-PDU被传输(直接数据提供)从PduR缓冲区到目标模块PduR将传递被复制到缓冲区的字节数,作为SduLength<br />
+4.当PduR_&lt;SrcLo&gt;RxIndication被调用时,如果FIFO队列为空，则触发传输数据，接收到的I-PDU将被复制到FIFO，并调用&lt;DstLo&gt;_Transmit。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp; ((PduRTriggertransmit ==&nbsp;true) &amp;&amp; (PduRDestPduDataProvision ==&nbsp;PDUR_TRIGGERTRANSMIT) for at least one destination))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)PduInfoPtr.SduLength大于PduR Tx缓冲区的长度</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Lo&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Lo&gt;TriggerTransmit(PduRDestPduHandleId, PduInfoPtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>在PduInfoPtr.SduDataPtr中复制了等于PduR Tx缓冲区长度的长度数据</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90126" name="CTSPTest_PduR_015">
+	<node_order><![CDATA[1014]]></node_order>
+	<externalid><![CDATA[1826]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.在提供触发器发送数据的网关中，当PduR_&lt;SrcLo&gt;RxIndication被重复调用,PDU路由器在调用PduR_&lt;DstLo&gt;TriggerTransmit时将最新收到的数据复制到目的缓冲区<br />
+2.如果目标通信接口模块确认了I-PDU使用 PduR_&lt;DstLo&gt;TxConfirmation，并且目的不是具有FIFO缓冲区的直接数据提供Pdu,Pdu路由器模块不应该做任何事情。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp; ((PduRTriggertransmit ==&nbsp;true) &amp;&amp; (PduRDestPduDataProvision ==&nbsp;PDUR_TRIGGERTRANSMIT) for at least one destination)&amp;&amp;&nbsp;(PduRTxBufferDepth == 1))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)PduInfoPtr.SduLength大于PduR Tx缓冲区的长度</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Lo&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)PduInfoPtr.SduLength大于PduR Tx缓冲区的长度</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Lo&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Lo&gt;TriggerTransmit(PduRDestPduHandleId, PduInfoPtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>数据复制的info.SduDataPtr等于在第04步中PduR的数据输入</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;DstLo&gt;TxConfirmation(PduRDestPduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Lo&gt;_Transmit未被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90134" name="CTSPTest_PduR_016">
+	<node_order><![CDATA[1015]]></node_order>
+	<externalid><![CDATA[1827]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>直接数据提供:目标I-PDU的PduRDestPduDataProvision配置为PDUR_DIRECT。当&lt;DstLo&gt;_Transmit被&lt; DstLo &gt;模块调用复制数据，PDU路由器不再缓冲传输的I-PDU。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp; &nbsp;(PduRDestPduDataProvision ==&nbsp;PDUR_DIRECT) for at least one destination)&amp;&amp;&nbsp;(PduRTxBufferDepth == 1))&amp;&amp;(PduR_TxBuffer[bufId].PduRTxBufferRef[0].used==FALSE)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Lo&gt;_Transmit被调用</p>
+
+<p>PduR_EnQueueBuffer未被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90139" name="CTSPTest_PduR_017">
+	<node_order><![CDATA[1016]]></node_order>
+	<externalid><![CDATA[1828]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>在使用FIFO-Buffer情况下，如果目标通信接口模块要求使用I-PDU缓冲区使用PduR_&lt;DstLo&gt;TriggerTransmit,且PduInfoPtr.SduLength小于PduR Tx缓冲区的长度，则返回值E_NOT_OK。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp; ((PduRTriggertransmit==true) &amp;&amp; (PduRDestPduDataProvision ==&nbsp;PDUR_TRIGGERTRANSMIT) for at least one destination)&amp;&amp;&nbsp;(PduRTxBufferDepth == 1))&amp;&amp;（PduR_TxBuffer = NULL_PTR）</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Lo&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Lo&gt;TriggerTransmit(PduRDestPduHandleId, PduInfoPtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;Lo&gt;TriggerTransmit返回E_NOT_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90145" name="CTSPTest_PduR_018">
+	<node_order><![CDATA[1017]]></node_order>
+	<externalid><![CDATA[1829]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.如果FIFO是满的,如果有一个新的PduR_&lt;SrcLo&gt;RxIndication调用,那么FIFO将会被刷新<br />
+2.如果FIFO被刷新，新的I-PDU由PduR_&lt;SrcLo&gt;RxIndication处理,就好像FIFO是空的一样。<br />
+3.如果PduRTxBufferDepth被配置为大于1的值,那么Tx Pdu缓冲区将有先进先出(FIFO)行为<br />
+4.当PduR_&lt;SrcLo&gt;RxIndication被调用且FIFO队列不为空时,则将收到的I-PDU复制为最新项。<br />
+5.当PduR_&lt;DstLo&gt;TriggerTransmit被调用并返回E_OK时,应复制并移除最旧的FIFO项。如果之后FIFO队列不是空的，则使用FIFO中最早的I-PDU调用&lt;DstLo&gt;_Transmit<br />
+6.如果FIFO被刷新,PDU路由器应向DET模块报告PDUR_E_PDU_INSTANCES_LOST。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp; ((PduRTriggertransmit==true) &amp;&amp; (PduRDestPduDataProvision ==&nbsp;PDUR_TRIGGERTRANSMIT) for at least one destination)&amp;&amp;&nbsp;(PduRTxBufferDepth &gt; 1))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)PduRTxBufferDepth次且每次PduInfoPtr不同</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_TxBuffer[bufId].PduRTxBufferRef[PduRTxBufferDepth-1].used == TRUE</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Lo&gt;TriggerTransmit(PduRDestPduHandleId, PduInfoPtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;Lo&gt;TriggerTransmit返回E_OK</p>
+
+<p>&lt;Lo&gt;_Transmit被调用，且最先进入缓冲的数据被复制</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_TxBuffer[bufId].PduRTxBufferRef[PduRTxBufferDepth-1].used == TRUE;且数据为PduInfoPtr里的数据</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduRTxBufferRef[0].used == TRUE;PduRTxBufferRef[1].used == FALSE</p>
+
+<p>Det_ReportError被调用且报告PDUR_E_PDU_INSTANCES_LOST</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90153" name="CTSPTest_PduR_019">
+	<node_order><![CDATA[1018]]></node_order>
+	<externalid><![CDATA[1830]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.验证在网关中发送单帧时,PDU路由器模块只有在PduR_&lt;User:LoTp&gt;RxIndication被调用后才会调用&lt;LoTp&gt;_Transmit<br />
+2.存储由PduR_&lt;SrcLoTp&gt;StartOfRecepti on提供的I-PDUs的元数据，并随I-PDU一起提供给&lt;DstLoTp&gt;_Transmit。<br />
+3.如果通过PduR_&lt;SrcLoTp&gt;StartOfRecepti on表示网关的TP PDU接收,且参数TpSduLen gth所报告的SDU总大小不大于PduRDestT xBufferRef引用的专用缓冲区的配置值PduRPduMaxLength,PduR使用专用缓冲区<br />
+4.如果结果是E_OK,则在PduR_&lt;SrcLoTp&gt;Tp RxIndication中的每个目标传输协议模块上调用&lt;DstLoTp&gt;_Transmit。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK且buffersize等于PduRTpBufferLength</p>
+
+<p>若PduRTpThreshold == 0验证&lt;LoTp&gt;_Transmit被调用<br />
+若PduRTpThreshold != 0验证&lt;LoTp&gt;_Transmit未被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;<br />
+info, bufferSizePtr)info.SduLength==TpBufferLength</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK且bufferSizePtr为0</p>
+
+<p>&lt;LoTp&gt;_Transmit未被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;LoTp&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90160" name="CTSPTest_PduR_020">
+	<node_order><![CDATA[1019]]></node_order>
+	<externalid><![CDATA[1831]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证在PDU在一个或多个目的地传输协议模块期间:<br />
+1.如果本地上层模块也被配置为目的地PduR将I-PDU转发到TP模块以及上层模块<br />
+2.如果PduR_&lt;LoTp&gt;TpRxIndication的result是NTFRSLT_OK，则在PduR_&lt;LoTp&gt;TpRxIndication的每个目的传输协议模块上调用PduR_&lt;LoTp&gt;Transmit</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)&amp;&amp;至少一个PduRDestPdu等于本地上层模块</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK</p>
+
+<p>对所有上层目的地重复验证&lt;Up&gt;_StartOfReception被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK</p>
+
+<p>对所有上层目的地重复验证&lt;Up&gt;_CopyRxData被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>对所有上层的目的模块重复验证&lt;Up&gt;_RxIndication被调用</p>
+
+<p>对所有下层TP模块重复验证&lt;LoTp&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90167" name="CTSPTest_PduR_021">
+	<node_order><![CDATA[1020]]></node_order>
+	<externalid><![CDATA[1832]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.在直接网关中，如果PduR_&lt;DstLoTp&gt;CopyTxData以TP_CONFPENDING状态被调用，则PDU Router复制PduInfoType长度值相等的数据，如果小于PduInfoType长度值,则复制到可用缓冲区，并返回BUFREQ_OK<br />
+2.如果PduR_&lt;SrcLoTp&gt;RxIndication结果值是E_OK，即使没有到达TP阈值，PDU路由器模块也会通过调用&lt;DstLoTp&gt;_Transmit来启动目标总线上的TP传输</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;LoTp&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId,&nbsp;info,retry,availableDataPtr)，retry.TpDataState==TP_CONFPENDING</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90175" name="CTSPTest_PduR_022">
+	<node_order><![CDATA[1021]]></node_order>
+	<externalid><![CDATA[1833]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.如果PduR_&lt;DstLoTp&gt;CopyTxData被调用TpDataState TP_DATACONF，若PduInfo数据长度大于缓冲区，则返回BUFREQ_E_BUSY<br />
+2.如果可用数据不足或所有其他目的传输协议模块都没有为前一帧调用PduR_&lt;DstLoTp&gt;CopyTxData,则Pdu路由器将返回BUFREQ_E_BUSY而不复制任何数据。<br />
+3.在网关情况下,当PduR从底层接收到RxIndication成功后,模块将对配置好的上层目的的发起接收会话:依次调用&lt;UpTp&gt;_StartOfReception, &lt;UpTp&gt;_Cop yRxData,&lt;UpTp&gt;_RxIndication。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;LoTp&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId,&nbsp;<br />
+info,retry,availableDataPtr)，retry.TpDataState==TP_DATACONF且Info.Sdulength&gt;PduRTpBufferLength</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_E_BUSY且不复制数据</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90183" name="CTSPTest_PduR_023">
+	<node_order><![CDATA[1022]]></node_order>
+	<externalid><![CDATA[1834]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>在网关运行期间验证：<br />
+1.在调用PduR_&lt;User:LoTp&gt;RxIndication之前，只要达到特定目的地的Tx阈值，PduR就会调用&lt;LoTpDst&gt;_Transmit<br />
+2.如果PduR_&lt;DstLoTp&gt;CopyTxData被调用,状态为TP_DATACONF，则PDU路由器复制与 PduInfoType长度相等的数据,如果低于PduInfoType长度值,则复制到可用缓冲区<br />
+3.如果通过PduR_&lt;SrcLoTp&gt;StartOfReception表示网关的TP PDU接收,且参数TpSduLength所报告的SDU总大小大于PduRDestTxBufferRef引用的专用缓冲区的配置值PduRPduMaxLength,PduR应从PduRTpBufferTable动态地分配一个缓冲区<br />
+4.对于TP网关场景,PduR_ &lt; LoTp &gt; CopyTxData的availableDataPtr表示PduR(网关)TP缓冲区中可用的剩余字节数。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)&amp;&amp; (PduRTpThreshold&lt;PduRTpBuffer长度)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK&amp;&amp;bufferSizePtr==PdurTpBufferlength</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr)info.SduLength &gt; PduRTpThreshold</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK</p>
+
+<p>&lt;LoTp&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId,&nbsp;info,retry,availableDataPtr)，retry.TpDataState==TP_DATACONF且retry.TxTpDataCnt == 0&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_OK且复制的数据等于第04步复制数据</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90190" name="CTSPTest_PduR_024">
+	<node_order><![CDATA[1023]]></node_order>
+	<externalid><![CDATA[1835]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.验证在网关运行期间，如果PduR收到的状态不是TP_DATACONF，则PDU路由器立即停止对这个I-PDU的进一步处理<br />
+2.验证在TP网关中,APIPduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK和&lt;LoTp&gt;_Transmit在调用成功的时候被调用<br />
+3.对于单帧传输,如果PduR_&lt;DstLoTp&gt;CopyTxData被调用且TpDataState为TP_DATARETRY,PDU路由器应将当前位置回退TxTpDataCnt字节，并复制SduLength字节的数据。如果Pdu路由器无法按要求回退位置,它将返回BUFREQ_E_NOT_OK,而不改变当前位置或复制任何数据。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK&amp;&amp;bufferSizePtr==PdurTpBufferlength</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr)info.SduLength == PduRTpThreshold</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,E_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>验证&lt;LoTp&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId,&nbsp;info,retry,availableDataPtr)，retry.TpDataState==TP_DATARETRY且retry.TxTpDataCnt == PduRTpThreshold</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_E_NOT_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90198" name="CTSPTest_PduR_025">
+	<node_order><![CDATA[1024]]></node_order>
+	<externalid><![CDATA[1836]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.验证在网关运行期间，如果调用PduR_&lt;LoTpSrc&gt;CopyRxData,并且提供的数据不能存储在缓冲区中，则返回BUFREQ_E_NOT_OK，并停止执行I-PDU网关<br />
+2.当&lt;UpTp&gt;_CopyRxData返回错误时,PduR将调用&lt;UpTp&gt;_RxIndication result= E_NOT_OK<br />
+3.如果使用即时路由,并调用PduR_&lt;SrcLoTp&gt;CopyRxData,而提供的数据不能存储在缓冲区中,则返回BUFREQ_E_NOT_OK,IPDU网关的执行将被停止。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)&amp;&amp;(PduRTpThreshold&lt;PduRTpBuffer长度)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK&amp;&amp;bufferSizePtr==PdurTpBufferlength</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr)info.SduLength &gt; CTPduRIpduLength</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_E_NOT_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,E_NOT_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;LoTp&gt;_Transmit未被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90205" name="CTSPTest_PduR_026">
+	<node_order><![CDATA[1025]]></node_order>
+	<externalid><![CDATA[1837]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.验证TP网关期间：PduR_&lt;User:LoTp&gt;CanTpCopyRxData返回BUFREQ_E_NOT_OK如果缓冲区是不可使用的<br />
+在调用PduR_&lt;DstLoTp&gt;TxConfirmation时,PDU路由器释放了这个目的地的I-PDU缓冲区<br />
+2.当PDURouter模块接收到PduR_&lt;DstLoTp&gt;TxConfirmation，PDURouter将释放这个目的地的I-PDU缓冲区。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr) info.SduLength == PduRTpBufferLength</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;LoTp&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr) info.SduLength == PduRTpBufferLength</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_E_NOT_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;TxConfirmation(PduRDestPduHandleId,&nbsp;E_NOT_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PDU路由器释放了这个目的地的I-PDU缓冲区</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;StartOfReception(PduRSourcePduHandleId,&nbsp;<br />
+PduRTpBufferLength, buffer)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>验证PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;<br />
+info, bufferSizePtr) info.SduLength == PduRTpBufferLength&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>验证PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90216" name="CTSPTest_PduR_027">
+	<node_order><![CDATA[1026]]></node_order>
+	<externalid><![CDATA[1838]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.当&lt;UpTp&gt;_StartOfReception返回BUFREQ_OK,但可用的缓冲区太小,无法接收到整个消息,PduR将调用&lt;UpTp&gt;_RxIndication，结果=E_NOT_OK<br />
+2.如果PduR_&lt;SrcLoTp&gt;RxIndication的结果值不是E_OK，则PDU路由器应立即停止对该I-PDU的进一步处理。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr) info.SduLength == PduRTpBufferLength</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_NOT_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;LoTp&gt;_Transmit未被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90223" name="CTSPTest_PduR_028">
+	<node_order><![CDATA[1027]]></node_order>
+	<externalid><![CDATA[1839]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.验证在停止的TP网关连接中,PduR_&lt;User:LoTp&gt;CopyRxData被调用,它返回BUFREQ_E_NOT_OK<br />
+2.验证在网关中,如果PduR_&lt;User:LoTp&gt;CopyTxData被调用并且数据大小大于可用的数据,返回BUFREQ_E_BUSY<br />
+3.验证API PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_E_NOT_OK,当数据没有复制,请求失败时</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr) info.SduLength == PduRTpBufferLength</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;LoTp&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_E_OVFL</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr) info.SduLength == PduRTpBufferLength</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_E_NOT_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90232" name="CTSPTest_PduR_029">
+	<node_order><![CDATA[1028]]></node_order>
+	<externalid><![CDATA[1840]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证如果PduR_&lt;DstLoTp&gt;CopyTxData被调用时状态为TP_CONFPENDING或TP_CONF,则PDU路由器复制相当于PduInfoType长度值的下一部分传输数据或拷贝到可用缓冲区,如果低于PduInfoType长度值并返回BUFREQ_OK</p>
+
+<p>1.对于TP网关场景,PduR_ &lt; LoTp &gt; CopyTxData的availableDataPtr表示PduR(网关)TP缓冲区中可用的剩余字节数。<br />
+2.如果使用TpDataStateTP_DATACONF调用PduR_&lt; DstLoTp &gt; CopyTxData，或者如果RetryInfoType指针为NULL,PDU路由器应复制SduLength字节的数据。<br />
+3.如果PduR_&lt;DstLoTp&gt;CopyTxData被调用,状态为TP_DATACONF,PDU路由器可以释放已经复制的数据</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;LoTp&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId,&nbsp;info,retry,availableDataPtr)，retry.TpDataState==TP_CONFPENDING且Info.SduLength = PduRTpBufferLength - 1&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_OK&amp;&amp;(复制的数据等于第04步复制数据)</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId,&nbsp;info,retry,availableDataPtr)，retry.TpDataState==TP_CONF且Info.SduLength=1</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_OK&amp;&amp;(复制的数据等于第04步复制数据剩余部分)</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90241" name="CTSPTest_PduR_030">
+	<node_order><![CDATA[1029]]></node_order>
+	<externalid><![CDATA[1841]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证在直接网关期间,PDU路由器模块返回当前可用缓冲区的大小,如果目标传输协议模块调用PduR_&lt;User:LoTp&gt;CopyTxData,长度为0(PduInfoType.SduLength = 0)</p>
+
+<p>1.如果传输协议模块调用PduR_&lt;LoTp&gt;CopyTxData或PduR_&lt;LoTp&gt;CopyRxData时长度为0 (PduInfoType.SduLength = 0）。PDU路由器模块应分别返回当前可用缓冲区的大小或当前可用数据的大小</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;LoTp&gt;)</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;info, bufferSizePtr)且PduInfoType.SduLength = 0</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK和当前可用数据的大小</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,&nbsp;<br />
+info, bufferSizePtr)且PduInfoType.SduLength!=0</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;RxIndication(PduRSourcePduHandleId,result==E_OK)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;LoTp&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyTxData(PduRDestPduHandleId,&nbsp;info,retry,availableDataPtr)，retry.TpDataState==TP_DATACONF且Info.SduLength =0&amp;&amp;retry.TxTpDataCnt == 0</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyTxData返回BUFREQ_OK&amp;&amp;(availableDataPtr被更新为PdurTpBufferlength)</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90250" name="CTSPTest_PduR_031">
+	<node_order><![CDATA[1030]]></node_order>
+	<externalid><![CDATA[1842]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证在FIFO网关和直接数据提供时,当调用PduR_&lt;DstLo&gt;TxConfirmation时，最老的FIFO条目被删除</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;)&amp;&amp; (PduRTxBufferDepth&gt;1)&amp;&amp;((PduRTransmissionConfirmation == true) &amp;&amp; (PduRDestPduDataProvision == PDUR_DIRECT) for at least one destination))&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr1)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Lo&gt;_Transmit被调用且复制数据等于入参数据</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr2)</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr3)</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;DstLo&gt;TxConfirmation(PduRDestPduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduRTxBufferRef[0].used == TRUE;PduRTxBufferRef[1].used == FALSE</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90258" name="CTSPTest_PduR_032">
+	<node_order><![CDATA[1031]]></node_order>
+	<externalid><![CDATA[1843]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证如果PduR_&lt;User:Up&gt;CancelTransmit被调用一个正在进行的取消传输请求,&lt;LoTp&gt;_CancelTransmit对于相同的I-PDU的新请求再次被调用</p>
+]]></summary>
+	<preconditions><![CDATA[<p>((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;/&lt;Lo&gt;))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Up&gt;CancelTransmit(PduRSourcePduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;CancelTransmit返回E_OK</p>
+
+<p>&lt;LoTp&gt;/&lt;Lo&gt;_CancelTransmit被调用返回值为E_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Up&gt;CancelTransmit(PduRSourcePduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;CancelTransmit返回E_OK</p>
+
+<p>&lt;LoTp&gt;/&lt;Lo&gt;_CancelTransmit被调用返回值为E_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90264" name="CTSPTest_PduR_033">
+	<node_order><![CDATA[1032]]></node_order>
+	<externalid><![CDATA[1844]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证1.当调用PduR_DisableRouting后PduR_&lt;User:Up&gt;CancelTransmit返回E_NOT_OK,并不调用&lt;LoTp&gt;_CancelTransmit 2.当调用PduR_EnableRouting后PduR_&lt;User:Up&gt;CancelTransmit返回E_OK,并调用&lt;LoTp&gt;_CancelTransmit</p>
+]]></summary>
+	<preconditions><![CDATA[<p>((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;/&lt;Lo&gt;))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_DisableRouting(PduRRoutingPathGroupId)</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Up&gt;CancelTransmit(PduRSourcePduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;CancelTransmit返回E_NOT_OK</p>
+
+<p>&lt;LoTp&gt;_CancelTransmit未被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_EnableRouting(PduRRoutingPathGroupId)</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Up&gt;CancelTransmit(PduRSourcePduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;CancelTransmit返回E_OK</p>
+
+<p>&lt;LoTp&gt;_CancelTransmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90272" name="CTSPTest_PduR_034">
+	<node_order><![CDATA[1033]]></node_order>
+	<externalid><![CDATA[1845]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>如果有单目的地,如果&lt;Lo&gt;/&lt;LotP&gt;_CancelTransmit返回E_NOT_OK,然后PduR_&lt;User:Up&gt;CancelTransmit也返回E_NOT_OK</p>
+]]></summary>
+	<preconditions><![CDATA[<p>((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;/&lt;Lo&gt;))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>设置&lt;LoTp&gt;/&lt;Lo&gt;根的行为,以返回E_NOT_OK，为API &lt;LoTp&gt;/&lt;Lo&gt;_CancelTransmit&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Up&gt;CancelTransmit(PduRSourcePduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;CancelTransmit返回E_NOT_OK</p>
+
+<p>&lt;LoTp&gt;/&lt;Lo&gt;_CancelTransmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90278" name="CTSPTest_PduR_035">
+	<node_order><![CDATA[1034]]></node_order>
+	<externalid><![CDATA[1846]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>如果有多个目的地,当一个或多个目标模块不返回E_OK时,将返回E_NOT_OK</p>
+]]></summary>
+	<preconditions><![CDATA[<p>((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;/&lt;Lo&gt;))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>设置&lt;LoTp&gt;/&lt;Lo&gt;存根行为返回E_NOT_OK，为最后一个发送的 &lt;LoTp&gt;/&lt;Lo&gt;_CancelTransmit&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Up&gt;CancelTransmit(PduRSourcePduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;CancelTransmit返回E_NOT_OK</p>
+
+<p>&lt;LoTp&gt;/&lt;Lo&gt;_CancelTransmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90284" name="CTSPTest_PduR_036">
+	<node_order><![CDATA[1035]]></node_order>
+	<externalid><![CDATA[1847]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证1.在PduR_DisableRouting调用后PduR_&lt;User:Up&gt;CancelReceive返回E_NOT_OK 2.在PduR_EnableRouting调用后PduR_&lt;User:Up&gt;CancelReceive返回E_OK</p>
+]]></summary>
+	<preconditions><![CDATA[<p>((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_DisableRouting(PduRRoutingPathGroupId)</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Up&gt;CancelReceive(PduRSourcePduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;CancelReceive返回E_NOT_OK</p>
+
+<p>&lt;LoTp&gt;_CancelReceive未被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_EnableRouting(PduRRoutingPathGroupId)</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Up&gt;CancelReceive(PduRSourcePduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;CancelReceive返回E_OK</p>
+
+<p>&lt;LoTp&gt;_CancelReceive被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90292" name="CTSPTest_PduR_037">
+	<node_order><![CDATA[1036]]></node_order>
+	<externalid><![CDATA[1848]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.验证如果PduR_&lt;User:Up&gt;CancelReceive被调用一个正在进行的取消发送请求,&lt;LoTp&gt;_CancelReceive对于相同的I-PDU的新请求再次被调用<br />
+2.验证如果&lt;LoTp&gt;_CancelReceive返回E_OK，则PduR_&lt;User:Up&gt;CancelReceive也返回E_OK</p>
+]]></summary>
+	<preconditions><![CDATA[<p>((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Up&gt;CancelReceive(PduRSourcePduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;CancelReceive返回E_OK</p>
+
+<p>&lt;LoTp&gt;_CancelReceive被调用且返回值为E_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Up&gt;CancelReceive(PduRSourcePduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;CancelReceive返回E_OK</p>
+
+<p>&lt;LoTp&gt;_CancelReceive被调用且返回值为E_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90298" name="CTSPTest_PduR_038">
+	<node_order><![CDATA[1037]]></node_order>
+	<externalid><![CDATA[1849]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证如果&lt;LoTp&gt;_CancelReceive返回E_NOT_OK，则PduR_&lt;User:Up&gt;CancelReceive也返回E_NOT_OK</p>
+]]></summary>
+	<preconditions><![CDATA[<p>((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>设置&lt;LoTp&gt;_CancelReceive存根行为返回E_NOT_OK</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Up&gt;CancelReceive(PduRSourcePduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;CancelReceive返回E_NOT_OK</p>
+
+<p>&lt;LoTp&gt;_CancelReceive被调用且返回值为E_NOT_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90304" name="CTSPTest_PduR_039">
+	<node_order><![CDATA[1038]]></node_order>
+	<externalid><![CDATA[1850]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证在持续传输过程中调用PduR_DisableRouting,PDU路由器立即禁用路由路径表,并不会从源端向目的端转发任何呼叫</p>
+]]></summary>
+	<preconditions><![CDATA[<p>((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;Lo&gt;))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;Transmit返回E_OK</p>
+
+<p>&lt;Lo&gt;_Transmit被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_DisableRouting(PduRRoutingPathGroupId)</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Lo&gt;TxConfirmation(PduRDestPduHandleId)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Up&gt;_TxConfirmation未被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90311" name="CTSPTest_PduR_040">
+	<node_order><![CDATA[1039]]></node_order>
+	<externalid><![CDATA[1851]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证在持续的接收期间,调用PduR_DisableRouting,PDU路由器立即禁用路由路径表,并没有从源到目的地的任何调用</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由配置为非网关操作且((CTPduRSrcModuleName==&lt;LoTp&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;Up&gt;))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;LoTp&gt;StartOfReception(SourcePduHandleId, info,TpSduLength, bufferSizePtr)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;StartOfReception返回BUFREQ_ OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_DisableRouting(PduRRoutingPathGroupId)</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:LoTp&gt;CopyRxData(PduRSourcePduHandleId,info,bufferSizePtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:LoTp&gt;CopyRxData返回BUFREQ_E_NOT_OK</p>
+
+<p>&lt;Up&gt;_CopyRxData未被调用</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90318" name="CTSPTest_PduR_041">
+	<node_order><![CDATA[1040]]></node_order>
+	<externalid><![CDATA[1852]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1.当PduR_&lt;Up&gt;ChangeParameter被调用时，PDU路由器模块将调用I-PDU的目标传输协议模块&lt;LoTp&gt;_ChangeParameter<br />
+2.&lt;LoTp&gt;_ChangeParameter的返回值应被转发到上层模块</p>
+]]></summary>
+	<preconditions><![CDATA[<p>((CTPduRSrcModuleName==&lt;Up&gt;)&amp;&amp;(CTPduRDestModuleName==&lt;LoTp&gt;))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个符合前提的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Up&gt;ChangeParameter(PduRSourcePduHandleId,parameter,value)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;ChangeParameter返回E_OK</p>
+
+<p>&lt;LoTp&gt;_ChangeParameter被调用且返回值为E_OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90323" name="CTSPTest_PduR_042">
+	<node_order><![CDATA[1041]]></node_order>
+	<externalid><![CDATA[1853]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证版本信息</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_GetVersionInfo</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>versionInfo-&gt;moduleID = PDUR_MODULE_ID;<br />
+versionInfo-&gt;sw_major_version = PDUR_SW_MAJOR_VERSION;<br />
+versionInfo-&gt;sw_minor_version = PDUR_SW_MINOR_VERSION;<br />
+versionInfo-&gt;sw_patch_version = PDUR_SW_PATCH_VERSION;<br />
+versionInfo-&gt;vendorID = PDUR_VENDOR_ID;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90326" name="CTSPTest_PduR_043">
+	<node_order><![CDATA[1042]]></node_order>
+	<externalid><![CDATA[3132]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>如果目标通信接口模块在调用&lt;DstLo&gt;_Transmit后返回E_NOT_OK,则PDU路由器模块不应重试传输</p>
+]]></summary>
+	<preconditions><![CDATA[<p>验证路由路径配置为单播操作且CTPduRSrcModuleName == &lt;Up&gt;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个配置的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>设置&lt;Lo&gt;/&lt;LoTp&gt;_Transmit存根为E_NOT_OK</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;Transmit返回E_NOT_OK</p>
+
+<p>若CTPduRDestModuleName == &lt;LoTp&gt;验证&lt;LoTp&gt;_Transmit被调用且返回值为E_NOT_OK；</p>
+
+<p>若CTPduRDestModuleName == &lt;Lo&gt;验证&lt;Lo&gt;_Transmit被调用且返回值为E_NOT_OK；</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90332" name="CTSPTest_PduR_044">
+	<node_order><![CDATA[1043]]></node_order>
+	<externalid><![CDATA[3133]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>当&lt;DstLo&gt;_Transmit()使用FIFO返回E_NOT_OK时,PDU路由器应向DET模块报告PDUR_E_PDU_INSTANCES_LOST</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;)&amp;&amp; (PduRTxBufferDepth&gt;1)&amp;&amp;<br />
+((PduRTransmissionConfirmation == true) &amp;&amp; (PduRDestPduDataProvision == PDUR_DIRECT) for at least one destination))&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个配置的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&lt;Lo&gt;_Transmit被调用<br />
+Det_ReportError被调用且报告PDUR_E_PDU_INSTANCES_LOST</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90337" name="CTSPTest_PduR_045">
+	<node_order><![CDATA[1044]]></node_order>
+	<externalid><![CDATA[3134]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>PDU路由器模块在PDU路由器模块上电后(即调用PduR_Init函数之前)应处于PDUR_UNINIT状态。PDU路由器模块在未初始化状态(PDUR_UNINIT)时,不应执行路由。</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>对每一个配置的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:Up&gt;Transmit(PduRSourcePduHandleId, info)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;Transmit返回E_NOT_OK；<br />
+Det_ReportError被调用且报告PDUR_E_INVALID_REQUEST</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90341" name="CTSPTest_PduR_046">
+	<node_order><![CDATA[1045]]></node_order>
+	<externalid><![CDATA[3135]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>如果启用了开发错误检测,PDU标识符不在指定范围内,并且PDU标识符被配置为由PDU路由器模块使用,则当启用了PduRDevErrorDetect时，PDU路由器模块应向DET模块报告错误PDUR_E_PDU_ID_INVALID。</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个配置的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_&lt;User:Up&gt;Transmit(InvalidPduHandleId, info)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_&lt;User:Up&gt;Transmit返回E_NOT_OK；<br />
+Det_ReportError被调用且报告PDUR_E_PDU_ID_INVALID</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90346" name="CTSPTest_PduR_047">
+	<node_order><![CDATA[1046]]></node_order>
+	<externalid><![CDATA[3136]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>如果调用PduR_EnableRouting时路由路径组id不存在,则PDU路由器模块应返回无动作。如果路由路径组id不存在且启用了PduRDevErro rDetect,则PDU路由器模块应报告PDUR_ E_ROUTING_PATH_GROUP_ID_INVALID。</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个配置的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_EnableRouting(InvalidPduHandleId)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>验证Det_ReportError被调用且报告PDUR_E_ROUTING_PATH_GROUP_ID_INVALID</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90351" name="CTSPTest_PduR_048">
+	<node_order><![CDATA[1047]]></node_order>
+	<externalid><![CDATA[3137]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>如果调用PduR_DisableRouting时路由路径组id不存在,则PDU路由器模块应返回无动作。如果路由路径组id不存在且启用了PduRDevErr orDetect,则PDU路由器模块应报告PDUR_ E_ROUTING_PATH_GROUP_ID_INVALID。</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个配置的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用PduR_DisableRouting(InvalidPduHandleId,TRUE)&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>验证Det_ReportError被调用且报告PDUR_E_ROUTING_PATH_GROUP_ID_INVALID</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="90356" name="CTSPTest_PduR_049">
+	<node_order><![CDATA[1048]]></node_order>
+	<externalid><![CDATA[3138]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>当与FIFO(PduRTxBufferDepth &gt; 1)相关联的路由路径停止时,相应的FIFO应被清除,并且如果启用了DET报告,则PduR应向DET报告PDUR_E_PDU_INSTANCES_LOST。</p>
+]]></summary>
+	<preconditions><![CDATA[<p>路由路径配置为网关操作且(CTPduRSrcModuleName == &lt;Lo&gt;) &amp;&amp; ((PduRTriggertransmit==true) &amp;&amp; (PduRDestPduDataProvision ==&nbsp;<br />
+PDUR_TRIGGERTRANSMIT) for at least one destination)&amp;&amp;&nbsp;<br />
+(PduRTxBufferDepth &gt; 1))</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>调用PduR_Init</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>对每一个配置的路由路径执行以下操作</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>调用 PduR_&lt;Lo&gt;RxIndication(PduRSourcePduHandleId, PduInfoPtr)PduRTxBufferDepth次且每次PduInfoPtr不同</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>PduR_TxBuffer[bufId].PduRTxBufferRef[PduRTxBufferDepth-1].used == TRUE;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>调用PduR_DisableRouting(Id,TRUE)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Det_ReportError被调用且报告PDUR_E_PDU_INSTANCES_LOST</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testsuite></testsuite>
